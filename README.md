@@ -19,43 +19,43 @@
 
 **Arch Linux (AUR):**
 ```bash
-yay -S bklml-ff
+yay -S bklml_ff
 # or
-paru -S bklml-ff
+paru -S bklml_ff
 ```
 
 **Any system (PyPI):**
 ```bash
-pipx install git+https://github.com/benjaminkalb/bklml-ff.git
-pip install bklml-ff
+pipx install git+https://github.com/benjaminkalb/bklml_ff.git
+pip install bklml_ff
 ```
 
 **Manual installation:**
 ```bash
-git clone https://github.com/benjaminkalb/bklml-ff.git
-cd bklml-ff
-chmod +x bklml-ff.py
-sudo cp bklml-ff.py /usr/local/bin/bklml-ff  # Linux/Mac
-# Windows: rename to bklml-ff.py & add to PATH
+git clone https://github.com/benjaminkalb/bklml_ff.git
+cd bklml_ff
+chmod +x bklml_ff.py
+sudo cp bklml_ff.py /usr/local/bin/bklml_ff  # Linux/Mac
+# Windows: rename to bklml_ff.py & add to PATH
 ```
 
 ### ⚡ Usage
 
 **Help**
 ```bash
-bklml-ff --help
+bklml_ff --help
 ```
 **Search in the current folder**
 ```bash
-bklml-ff .
+bklml_ff .
 ```
 **Recursive search with details**
 ```bash
-bklml-ff ~/projects --details
+bklml_ff ~/projects --details
 ```
 **Only the upper level**
 ```bash
-bklml-ff /path/to/folder --no-recursive -d
+bklml_ff /path/to/folder --no-recursive -d
 ```
 
 ### 📊 Example of output from --details
@@ -75,7 +75,7 @@ plugins/auth.bklml                  | 0.9.2    | translations for lines
 
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
-DIRECTORY	| The folder to scan (by default .)	| bklml-ff ~/src
+DIRECTORY	| The folder to scan (by default .)	| bklml_ff ~/src
 --details, -d	| Show versions and descriptions | --details
 --no-recursive | Only the upper level	| --no-recursive
 --version	| Program version	| --version
