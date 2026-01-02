@@ -27,7 +27,7 @@ paru -S bklml_ff
 **Any system (PyPI):**
 ```bash
 pipx install git+https://github.com/benjaminkalb/bklml_ff.git
-pip install bklml_ff
+pip install bklml-ff
 ```
 
 **Manual installation:**
